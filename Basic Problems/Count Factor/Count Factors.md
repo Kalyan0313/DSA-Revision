@@ -20,6 +20,7 @@ The straightforward solution is to iterate from 1 to n and count all numbers tha
 
 ## CPP
 
+```CPP
 int countFactor(int n) {
     int count = 0;
     for(int i = 1; i <= n; i++) {
@@ -29,6 +30,7 @@ int countFactor(int n) {
     }
     return count;
 }
+```
 
 
 **Optimized Approach (O(√n) time)**
